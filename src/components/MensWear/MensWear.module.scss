@@ -1,0 +1,26 @@
+.section {
+  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 15vh auto 0 auto;
+}
+
+.item_wrapper {
+  width: 20%;
+}
+
+.img {
+  max-width: 80%;
+  height: 70%;
+}
+
+.name {
+  width: 80%;
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.cost {
+  font-size: 18px;
+}
