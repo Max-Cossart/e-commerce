@@ -10,8 +10,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/ApolloMuscleSsT-ShirtBlackBlackA1A3D-BBBB-1448_256x.jpg?v=1695924327"
     ],
     "cost": "40",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "2",
@@ -24,9 +29,15 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/PowerT-Shirt-GSNavy-A4A9Q-UB9P-0480_55b1dbef-a26a-4ebe-a77f-4f873370bcce_1920x.jpg?v=1690386673"
     ],
     "cost": "54",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
+
   {
     "id": "3",
     "name": "REACT STRINGER",
@@ -38,8 +49,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/ReactStringer-GSDenimTeal-A2A9B-TBJ1-0036_256x.jpg?v=1690107810"
     ],
     "cost": "40",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "4",
@@ -52,8 +68,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/C145_BF_A1A3E-GBFH-0075_640x.jpg?v=1693471370"
     ],
     "cost": "40",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "5",
@@ -66,8 +87,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/CrestLsT-Shirt_Regular_White-A1A9E-WBBM-0264_256x.jpg?v=1686219082"
     ],
     "cost": "40",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "6",
@@ -80,8 +106,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/products/LonglineSportsBraBlack-B4A9L-BBBB192_256x.jpg?v=1677518892"
     ],
     "cost": "55",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "7",
@@ -94,8 +125,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/LiftingEssentialsOversizedT-shirt-GSBlack-B8A3R-BB2J-1828_256x.jpg?v=1695117301"
     ],
     "cost": "45",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "8",
@@ -108,8 +144,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/EverydayCapSleeveT-ShirtGSBlackB8A2K-BB2J-0104_50994c30-f243-46f6-8896-a052af4cc636_256x.jpg?v=1695117313"
     ],
     "cost": "35",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "9",
@@ -122,8 +163,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/ADAPTCAMOSEAMLESSLONGSLEEVECROPTOP-ENG-L-A0146GSWinterOlive-GSSoulBrownB5A8S-ECCH-1692_7aca15c5-79c4-48a2-a8c1-0fbfdd4609a8_640x.jpg?v=1695117277"
     ],
     "cost": "75",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "10",
@@ -136,8 +182,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/COTTONSTRAPPYMIDITANK-GSWhite-B6A5E-WB57-0349_88b18cd2-277f-4203-8bd8-c9337f62d0fb_640x.jpg?v=1692884987"
     ],
     "cost": "65",
-    "sizes": ["xs", "sm", "md", "lg", "xl"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "11",
@@ -150,8 +201,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/products/ARRIVAL5SHORTSBLACKA2A1M-BBBB.4_640x.jpg?v=1683018159"
     ],
     "cost": "40",
-    "sizes": ["28", "30", "32", "34", "36", "38"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "12",
@@ -164,8 +220,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/products/CrestShortBlackA1A2O63.B-Edit_HK_ZH_c77def50-53a5-425f-b30c-63edf63e164a_256x.jpg?v=1644482611"
     ],
     "cost": "45",
-    "sizes": ["28", "30", "32", "34", "36", "38"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "13",
@@ -178,8 +239,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/Heritage5ShortGSDesertBeige-ACIDWASHSMALLBALLA4A8K-NB1V-0784_256x.jpg?v=1695117286"
     ],
     "cost": "60",
-    "sizes": ["28", "30", "32", "34", "36", "38"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "14",
@@ -192,8 +258,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/SportRun3Short-GSPlumPink-A2A8L-KBS1-0318_256x.jpg?v=1695117282"
     ],
     "cost": "55",
-    "sizes": ["28", "30", "32", "34", "36", "38"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "15",
@@ -206,8 +277,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/KnitShort-SilhouetteGrey-A5A1Z-GBP4-1085_f91385f5-7386-465c-a299-d08d177462db_256x.jpg?v=1693557468"
     ],
     "cost": "65",
-    "sizes": ["28", "30", "32", "34", "36", "38"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "16",
@@ -220,8 +296,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/products/Training_WovenPocketShortBlack-B5A2F-BBBB-0245.177_a2e92ac1-c2cd-4f03-ac6b-12152e4190e2_256x.jpg?v=1678267726"
     ],
     "cost": "60",
-    "sizes": ["28", "30", "32", "34", "36", "38"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "17",
@@ -234,8 +315,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/ADAPTFLECKSEAMLESSSHORTSENG-L-A0015GSBlack_GSSmokeyGreyB6A1J-BB39-1001_256x.jpg?v=1689161719"
     ],
     "cost": "70",
-    "sizes": ["7", "8", "9", "10", "11", "12", "13"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "18",
@@ -248,8 +334,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/products/TrainingWovenShortsBlackB2A5CB2A5C-BBBB.C_256x.jpg?v=1652176128"
     ],
     "cost": "45",
-    "sizes": ["7", "8", "9", "10", "11", "12", "13"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "19",
@@ -262,8 +353,13 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/products/IconTrendShortsBlack-B4A9A-BBBB-2263.69-Edit_d97678d1-da77-46e0-9e94-7c389c33f406_256x.jpg?v=1678267715"
     ],
     "cost": "60",
-    "sizes": ["7", "8", "9", "10", "11", "12", "13"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   },
   {
     "id": "20",
@@ -276,7 +372,12 @@
       "https://cdn.shopify.com/s/files/1/1693/6097/files/TRAININGFLEECESHORT-GSDeepOliveGreen-B6A1P-ECBH-1977_256x.jpg?v=1687869149"
     ],
     "cost": "50",
-    "sizes": ["7", "8", "9", "10", "11", "12", "13"],
-    "quantity": "10"
+    "sizes": [
+      { "size": "xs", "quantity": "10" },
+      { "size": "sm", "quantity": "10" },
+      { "size": "md", "quantity": "10" },
+      { "size": "lg", "quantity": "10" },
+      { "size": "xl", "quantity": "10" }
+    ]
   }
 ]

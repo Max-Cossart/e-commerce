@@ -1,5 +1,4 @@
 import "./App.css";
-import activeWear from "../active-wear.json";
 import { useEffect, useState } from "react";
 import NavBar from "./components/NavBar/NavBar";
 import Landing from "./components/Landing/Landing";
@@ -7,13 +6,20 @@ import ItemPage from "./components/ItemPage/ItemPage";
 import MensWear from "./components/MensWear/MensWear";
 import WomensWear from "./components/WomensWear/WomensWear";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Cart from "./components/Cart/Cart";
+import { getActiveWear } from "./services/services";
 
 function App() {
   const [data, setData] = useState([]);
+  const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    setData(activeWear);
+    getActiveWear().then((item) => setData(item));
   }, []);
+
+  function addToCart(item) {
+    setCart([...cart, { item }]).then(console.log(cart));
+  }
 
   return (
     <>
@@ -36,6 +42,7 @@ function App() {
             }
           />
           <Route path="/item/:id" element={<ItemPage data={data} />} />
+          <Route path="/cart" element={<Cart setCart={setCart} />} />
         </Routes>
       </BrowserRouter>
     </>

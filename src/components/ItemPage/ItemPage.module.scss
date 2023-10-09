@@ -16,20 +16,21 @@
 }
 
 .name {
-  margin: 32px 0;
+  padding-top: 24px;
   font-size: 32px;
   text-decoration: underline;
+  height: 10%;
 }
 
 .description {
   font-size: 24px;
   width: 80%;
-  margin: 32px 0;
+  height: 20%;
 }
 
 .cost {
   font-size: 24px;
-  margin: 32px 0;
+  height: 10%;
 }
 
 .btn {
@@ -38,19 +39,44 @@
   background-color: #242424;
   padding: 12px;
   margin-bottom: 32px;
+  cursor: pointer;
 }
 
 .sizes {
-  width: 30%;
+  height: 3%;
+  width: 50%;
+  margin-top: 5%;
+  display: flex;
+}
+
+.size_container {
+  width: 10%;
+  height: 100%;
+  margin: 12px;
   display: flex;
   justify-content: space-between;
 }
 
+.radio {
+  display: none;
+
+  &:checked + label {
+    background-color: #242424;
+    color: #f1f1f1;
+  }
+}
+
 .size {
-  font-size: 20px;
-  border: 1px solid #242424;
-  padding: 4px;
+  display: inline-block;
+  background-color: #ddd;
+  font-family: Arial;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
   transition: ease all 150ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     background-color: #242424;

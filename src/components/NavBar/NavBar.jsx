@@ -35,9 +35,9 @@ const NavBar = () => {
 
       <ul className={styles.list}>
         <li className={styles.list_item}>
-          <a className={styles.link_cart} href="">
+          <NavLink className={styles.link_cart} to="/cart">
             <FontAwesomeIcon icon={faShoppingCart} />
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

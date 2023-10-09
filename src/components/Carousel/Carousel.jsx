@@ -28,19 +28,23 @@ const Carousel = ({ data }) => {
   return (
     <>
       <div className={styles.image_wrapper}>
-        <button className={styles.arrow_left} onClick={subtractNum}>
-          <FontAwesomeIcon
-            className={styles.arrow}
-            icon={faArrowAltCircleLeft}
-          />
-        </button>
-        <img className={styles.image} src={data[num]} alt="" />
-        <button className={styles.arrow_right} onClick={addNum}>
-          <FontAwesomeIcon
-            className={styles.arrow}
-            icon={faArrowAltCircleRight}
-          />
-        </button>
+        {data && (
+          <>
+            <button className={styles.arrow_left} onClick={subtractNum}>
+              <FontAwesomeIcon
+                className={styles.arrow}
+                icon={faArrowAltCircleLeft}
+              />
+            </button>
+            <img className={styles.image} src={data[num]} alt="" />
+            <button className={styles.arrow_right} onClick={addNum}>
+              <FontAwesomeIcon
+                className={styles.arrow}
+                icon={faArrowAltCircleRight}
+              />
+            </button>
+          </>
+        )}
       </div>
     </>
   );

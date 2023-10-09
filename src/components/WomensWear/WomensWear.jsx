@@ -5,7 +5,7 @@ const WomensWear = ({ data }) => {
   return (
     <section className={styles.section}>
       {data.map((item) => (
-        <div className={styles.item_wrapper}>
+        <div key={item.id} className={styles.item_wrapper}>
           <NavLink to={`/item/${item.id}`}>
             <img className={styles.img} src={item.imageLink[0]} />
           </NavLink>
