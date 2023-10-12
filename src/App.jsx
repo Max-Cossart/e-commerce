@@ -3,11 +3,10 @@ import { useEffect, useState } from "react";
 import NavBar from "./components/NavBar/NavBar";
 import Landing from "./components/Landing/Landing";
 import ItemPage from "./components/ItemPage/ItemPage";
-import MensWear from "./components/MensWear/MensWear";
-import WomensWear from "./components/WomensWear/WomensWear";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Cart from "./components/Cart/Cart";
 import { getActiveWear } from "./services/services";
+import Catalogue from "./components/Catalogue/Catalogue";
 
 function App() {
   const [data, setData] = useState([]);
@@ -18,7 +17,7 @@ function App() {
   }, []);
 
   function addToCart(item) {
-    setCart([...cart, { item }]).then(console.log(cart));
+    setCart([...cart, item]);
   }
 
   return (
@@ -30,19 +29,25 @@ function App() {
           <Route
             path="/mens"
             element={
-              <MensWear data={data.filter((item) => item.gender === "Male")} />
+              <Catalogue data={data.filter((item) => item.gender === "Male")} />
             }
           />
           <Route
             path="/womens"
             element={
-              <WomensWear
+              <Catalogue
                 data={data.filter((item) => item.gender === "Female")}
               />
             }
           />
-          <Route path="/item/:id" element={<ItemPage data={data} />} />
-          <Route path="/cart" element={<Cart setCart={setCart} />} />
+          <Route
+            path="/item/:id"
+            element={<ItemPage data={data} addToCart={addToCart} />}
+          />
+          <Route
+            path="/cart"
+            element={<Cart cart={cart} setCart={setCart} />}
+          />
         </Routes>
       </BrowserRouter>
     </>

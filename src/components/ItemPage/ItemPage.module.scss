@@ -7,6 +7,9 @@
 }
 
 .carousel_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40%;
   height: 100%;
 }
@@ -19,42 +22,46 @@
   padding-top: 24px;
   font-size: 32px;
   text-decoration: underline;
-  height: 10%;
+  margin-bottom: 12px;
 }
 
 .description {
   font-size: 24px;
   width: 80%;
-  height: 20%;
+  margin: 20px 0;
 }
 
 .cost {
   font-size: 24px;
-  height: 10%;
 }
 
 .btn {
   font-size: 20px;
   color: #f1f1f1;
   background-color: #242424;
+  border: 2px solid #242424;
   padding: 12px;
   margin-bottom: 32px;
   cursor: pointer;
+  transition: ease all 200ms;
+
+  &:hover {
+    background-color: #f1f1f1;
+    color: #242424;
+  }
 }
 
 .sizes {
-  height: 3%;
-  width: 50%;
-  margin-top: 5%;
+  margin: 24px 0;
   display: flex;
+  flex-direction: row;
 }
 
 .size_container {
-  width: 10%;
-  height: 100%;
-  margin: 12px;
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
   display: flex;
-  justify-content: space-between;
 }
 
 .radio {
@@ -81,5 +88,49 @@
   &:hover {
     background-color: #242424;
     color: #f1f1f1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .name {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .cost {
+    font-size: 18px;
+  }
+
+  .size_container {
+    font-size: 16px;
+    height: 32px;
+    width: 32px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .carousel_container {
+    margin-top: 48px;
+    width: 80%;
+    height: 100%;
+  }
+
+  .info {
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -1,12 +1,12 @@
-import styles from "./MensWear.module.scss";
+import styles from "./Catalogue.module.scss";
 import { NavLink } from "react-router-dom";
 
-const MensWear = ({ data }) => {
+const Catalogue = ({ data }) => {
   return (
     <section className={styles.section}>
       {data.map((item) => (
         <div key={item.id} className={styles.item_wrapper}>
-          <NavLink to={`/item/${item.id}`}>
+          <NavLink className={styles.img_wrapper} to={`/item/${item.id}`}>
             <img className={styles.img} src={item.imageLink[0]} />
           </NavLink>
           <h4 className={styles.name}>{item.name}</h4>
@@ -17,4 +17,4 @@ const MensWear = ({ data }) => {
   );
 };
 
-export default MensWear;
+export default Catalogue;
