@@ -11,7 +11,9 @@
 }
 
 .logo {
-  height: 80px;
+  font-size: 48px;
+  transform: rotate(20deg);
+  color: white;
 }
 
 .list {
@@ -57,5 +59,19 @@
   &:hover {
     background-color: white;
     color: #242424;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 32px;
+  }
+
+  .link {
+    font-size: 18px;
+  }
+
+  .link_cart {
+    font-size: 18px;
   }
 }

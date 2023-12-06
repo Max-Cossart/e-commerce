@@ -12,6 +12,7 @@
   justify-content: center;
   width: 40%;
   height: 100%;
+  margin: 0 auto;
 }
 
 .info {
@@ -35,7 +36,15 @@
   font-size: 24px;
 }
 
+.fav_btn {
+  border: none;
+  margin: 12px 0;
+  font-size: 20px;
+  color: red;
+}
+
 .btn {
+  width: 200px;
   font-size: 20px;
   color: #f1f1f1;
   background-color: #242424;
@@ -89,6 +98,10 @@
     background-color: #242424;
     color: #f1f1f1;
   }
+}
+
+.error_message {
+  color: red;
 }
 
 @media screen and (max-width: 1200px) {

@@ -51,11 +51,12 @@
 @media screen and (max-width: 900px) {
   .item_wrapper {
     width: 50%;
+    margin: 12px 0;
   }
 }
 
 @media screen and (max-width: 500px) {
   .item_wrapper {
-    width: 1000%;
+    width: 100%;
   }
 }

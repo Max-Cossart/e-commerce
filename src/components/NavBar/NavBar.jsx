@@ -1,6 +1,6 @@
 import styles from "./NavBar.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faShoppingCart, faDumbbell } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -8,10 +8,7 @@ const NavBar = () => {
     <nav className={styles.nav}>
       <figure className={styles.logo_wrapper}>
         <NavLink to="/">
-          <img
-            className={styles.logo}
-            src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png"
-          />
+          <FontAwesomeIcon className={styles.logo} icon={faDumbbell} />
         </NavLink>
       </figure>
 

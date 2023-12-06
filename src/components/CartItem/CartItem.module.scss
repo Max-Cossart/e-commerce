@@ -1,3 +1,43 @@
+.cart_item {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 18px auto;
+}
+
+.item_wrapper {
+  display: flex;
+  align-items: center;
+  width: 580px;
+}
+
 .image {
-  max-width: 50px;
+  max-width: 80px;
+}
+
+.name {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.size {
+  padding-left: 8px;
+  width: 295px;
+  font-size: 18px;
+}
+
+.quantity {
+  padding-left: 16px;
+  width: 25%;
+}
+
+.select {
+  font-size: 18px;
+}
+
+.cost {
+  font-size: 18px;
+  text-align: end;
+  padding-right: 12px;
+  width: 70px;
 }
