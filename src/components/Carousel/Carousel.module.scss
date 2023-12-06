@@ -1,0 +1,35 @@
+.image_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  width: fit-content;
+  height: 90%;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  max-height: 90%;
+  border-radius: 12px;
+}
+
+.arrow_left {
+  position: absolute;
+  left: 16px;
+  background-color: transparent;
+  border: none;
+}
+
+.arrow_right {
+  position: absolute;
+  right: 16px;
+  border: none;
+  background: transparent;
+}
+
+.arrow {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.637);
+  cursor: pointer;
+}
