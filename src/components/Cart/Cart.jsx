@@ -3,10 +3,6 @@ import styles from "./Cart.module.scss";
 import CartItem from "../CartItem/CartItem";
 
 const Cart = ({ cart }) => {
-  useEffect(() => {
-    console.log(cart);
-  }, []);
-
   return (
     <>
       <div className={styles.cart}>
@@ -18,11 +14,9 @@ const Cart = ({ cart }) => {
         </div>
       </div>
       <div>
-        {cart.map(
-          (item) =>
-            item.name
-            // <CartItem item={item} />
-        )}
+        {cart.map((item) => (
+          <CartItem item={item} />
+        ))}
       </div>
     </>
   );

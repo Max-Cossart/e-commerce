@@ -2,8 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 100%;
-  width: fit-content;
   height: 90%;
   position: relative;
 }
@@ -33,3 +31,9 @@
   color: rgba(0, 0, 0, 0.637);
   cursor: pointer;
 }
+
+// @media screen and (max-width: 1000px) {
+//   .image_wrapper {
+
+//   }
+// }

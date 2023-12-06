@@ -8,7 +8,6 @@ const Landing = ({ data }) => {
       item.id === "1" || item.id === "6" || item.id === "11" || item.id === "16"
   );
 
-  console.log(newData);
   const landingPics = newData.map((item) => item.imageLink[0]);
 
   return (
@@ -18,7 +17,9 @@ const Landing = ({ data }) => {
           <h1 className={styles.header}>
             Browse some of our Collection Below!
           </h1>
-          <Carousel data={landingPics} />
+          <div className={styles.carousel_container}>
+            <Carousel data={landingPics} />
+          </div>
         </>
       )}
     </header>

@@ -42,7 +42,7 @@ function App() {
           />
           <Route
             path="/item/:id"
-            element={<ItemPage data={data} addToCart={addToCart} />}
+            element={<ItemPage data={data} addToCart={addToCart} cart={cart} />}
           />
           <Route
             path="/cart"

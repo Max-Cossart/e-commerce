@@ -14,18 +14,21 @@
 }
 
 .cart__item {
-  width: 50%;
+  width: 600px;
   display: flex;
+  font-size: 18px;
 }
 
 .cart__size {
   width: 25%;
+  font-size: 18px;
 }
 
 .cart__quantity {
   width: 25%;
   display: flex;
   align-items: center;
+  font-size: 18px;
 }
 
 .cart__total {
